@@ -1,2 +1,2 @@
-# iiitvcpp
+# iiitvccpp
 IIITV CC Portfolio Page
