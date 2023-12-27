@@ -1,0 +1,12 @@
+
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/OswaldBold.ttf"); font-family : "Oswald"; font-weight : 700;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MontserratRegular.ttf"); font-family : "Montserrat"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/BarlowBold.ttf"); font-family : "Barlow"; font-weight : 700;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/BarlowLightItalic.ttf"); font-family : "Barlow"; font-weight : 300;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/BarlowThinItalic.ttf"); font-family : "Barlow"; font-weight : 300;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/BarlowMediumItalic.ttf"); font-family : "Barlow"; font-weight : 500;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/NotoSansRegular.ttf"); font-family : "Noto Sans"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/OpenSansRomanSemiBold.ttf"); font-family : "Open Sans"; font-weight : 600;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/OpenSansRomanBold.ttf"); font-family : "Open Sans"; font-weight : 700;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/BarlowRegular.ttf"); font-family : "Barlow"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/BarlowSemiBold.ttf"); font-family : "Barlow"; font-weight : 600;  }

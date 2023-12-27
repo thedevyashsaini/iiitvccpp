@@ -1,0 +1,83 @@
+module.exports = {
+  mode: "jit",
+  content: [
+    "./src/**/**/*.{js,ts,jsx,tsx,html,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,html,mdx}",
+  ],
+  darkMode: "class",
+  theme: {
+    screens: { md: { max: "1050px" }, sm: { max: "550px" } },
+    extend: {
+      colors: {
+        purple: {
+          600: "#9f208e",
+          900: "#602080",
+          A700_19: "#a600f919",
+          "900_21": "#60208021",
+          A700_33: "#a900ff33",
+          "600_00": "#9f208e00",
+          A200: "#f638dc",
+          "600_33": "#9f208e33",
+          "900_c1": "#602080c1",
+          A200_4f: "#f638dc4f",
+        },
+        black: {
+          900: "#000000",
+          "900_3f": "#0000003f",
+          "900_44": "#00000044",
+          "900_33": "#00000033",
+          "900_19": "#00000019",
+        },
+        white: {
+          A700_33: "#ffffff33",
+          A700_cc: "#ffffffcc",
+          A700_4c: "#ffffff4c",
+          A700_0c: "#ffffff0c",
+          A700_dd: "#ffffffdd",
+          A700: "#ffffff",
+        },
+        blue_gray: {
+          900: "#303030",
+          "900_01": "#353535",
+          "900_99": "#35353599",
+        },
+        deep_purple: { A700: "#7d00ff" },
+        gray: {
+          100: "#f2f2f2",
+          200: "#e9e9e9",
+          800: "#383838",
+          900: "#181818",
+          "800_53": "#33553353",
+        },
+      },
+      backgroundImage: {
+        gradient: "linear-gradient(180deg ,#a900ff33,#00000033)",
+        gradient1: "linear-gradient(180deg ,#9f208e33,#9f208e00)",
+        gradient2: "radial-gradient(#00000019,#a600f919)",
+        gradient3: "linear-gradient(90deg ,#181818,#383838,#181818)",
+      },
+      boxShadow: {
+        bs: "0px 0px  4px 0px #f638dc",
+        bs3: "2.8px 2.8px  3px 0px #000000",
+        bs1: "0px 3.63px  3px 0px #0000003f",
+        bs2: "3.18px 46.01px  56px 0px #00000044",
+      },
+      fontFamily: {
+        barlow: "Barlow",
+        notosans: "Noto Sans",
+        opensans: "Open Sans",
+        impact: "Impact",
+        montserrat: "Montserrat",
+        oswald: "Oswald",
+      },
+      textShadow: {
+        ts2: "1px 1px  2px #f638dc",
+        ts1: "1px 1px  4px #f638dc4f",
+        ts3: "1.18px 1.18px  4px #f638dc4f",
+        ts4: "1.43px 1.43px  5px #f638dc4f",
+        ts: "0px 3.63px  3px #0000003f",
+      },
+    },
+  },
+  plugins: [require("@tailwindcss/forms"), require("tailwindcss-textshadow")],
+};

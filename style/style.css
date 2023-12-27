@@ -4,7 +4,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Orbitron&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap);
-
+@import url(https://fonts.googleapis.com/css2?family=Barlow&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap);
 
 body {
     padding: 0;
@@ -225,4 +227,23 @@ nav {
     font-family: 'Font Awesome 6 Brands';
     font-size: xx-large;
     cursor: pointer
+}
+
+
+/* CC Banner Styling */
+
+.ccBanner {
+    position: relative;
+    margin-top: 50px;
+    width: 110%;
+}
+
+.ccBanner p:nth-child(1) {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    letter-spacing: 5px;
+    color: #303030;
+    text-shadow: 0 1px 1px #000;
+    margin-left: -15px
 }
